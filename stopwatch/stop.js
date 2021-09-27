@@ -21,11 +21,11 @@ if(tens<=9)
     h.innerHTML='0'+0;
  }
  if(second<=9){
-    hh.innerHTML="0"+second;
+    hh.innerHTML=second+":";
 
  }
  else if(second>9)
-    hh.innerHTML=second ;
+    hh.innerHTML=second+":" ;
 
 
 }
@@ -39,6 +39,6 @@ function reset(){
    tens=0;
    second=0;
    h.innerHTML="0"+tens;
-   hh.innerHTML=second;
+   hh.innerHTML=+second+":";
 
 }

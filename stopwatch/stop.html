@@ -6,13 +6,20 @@
    
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="stop.js" defer></script>
+    <script src="/stopwatch/stop.js" defer></script>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 id="mains">0</h1>
-    <h1 id="main"></h1>
-    <button onclick='pause()'>pause</button>
-    <button onclick='start()'>start</button>
-    <button onclick='reset()'>reset</button>
+    <div class="display">
+        <h1 id="mains">0</h1>
+        <h1 id="main"></h1>
+    </div>
+    
+    <div class="menu">
+        <button onclick='pause()'>pause</button>
+        <button onclick='start()'>start</button>
+        <button onclick='reset()'>reset</button>
+    </div>
+    
 </body>
 </html>
